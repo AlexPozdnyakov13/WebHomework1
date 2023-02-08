@@ -36,9 +36,12 @@ a {
   color: #888888;
 }
 
+.top_main_buttons {
+  margin-top: 37px;
+}
+
 .button {
   border-radius: 5px;
-  margin-top: 37px;
 }
 
 .footer_logos {
