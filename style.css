@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 40px 375px 0 375px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f25822;
+}
+
+.header a {
+  color: inherit;
+}
+
+.top_main {
+  padding-top: 84px;
+  padding-right: 375.27px;
+  padding-bottom: 163.1px;
+  padding-left: 365px;
+}
+
+.top_main_heading {
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+}
+.top_main_paragraph {
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+}
+
+.button {
+  border-radius: 5px;
+  margin-top: 37px;
+}
+
+.footer_logos {
+  padding-top: 97px;
+  padding-right: 375px;
+  padding-bottom: 96px;
+  padding-left: 345px;
+}
