@@ -8,13 +8,16 @@ a {
   text-decoration: none;
 }
 
+.top {
+}
 .header {
   padding-top: 40px;
   font-size: 14px;
   line-height: 16px;
   display: flex;
-  justify-content: space-around;
-  gap: 500px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 600px;
 }
 
 .nav {
@@ -34,7 +37,7 @@ a {
   padding-bottom: 163px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: center;
   gap: 39px;
 }
 
@@ -80,12 +83,12 @@ a {
   color: #aaaaaa;
 }
 
-.footer_logos {
+.top_logos {
   padding-top: 97px;
   padding-bottom: 96px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   gap: 48px;
 }
 @font-face {
@@ -106,4 +109,76 @@ a {
     url("../fonts/Gilroy-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 61px;
+  margin-left: calc(50% - 556px);
+}
+
+.grid1_1,
+.grid1_3 {
+  width: 310px;
+  height: 226px;
+}
+.grid1_2 {
+  width: 370px;
+  height: 291px;
+}
+h4 {
+  margin-top: 25px;
+  margin-bottom: 17px;
+}
+
+h6 {
+  margin-top: 25px;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.center_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center_content_p {
+  margin-top: 20px;
+  width: 682px;
+  text-align: center;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: calc(50% - 556px);
+  margin-right: calc(50% - 556px);
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.grid2_1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 549px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.grid2_button {
+  margin-top: 39px;
+  border-radius: 30px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #f25822;
+  border-style: hidden;
+  padding: 15px;
+  width: 150px;
+  justify-self: center;
 }
